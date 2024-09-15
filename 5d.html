@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hover Shadow Card</title>
+        <link rel="stylesheet" href="5d.css">
+    </head>
+    <body>
+    
+        <div class="Card">
+            This is box shadow card.
+        </div>
+    
+    </body>
+    </html>
+    
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f7f7f7;
+    }
+    
+    .Card {
+        padding: 20px 70px;
+        border: 1px solid gray;
+        background-color: rgb(9, 1, 1);
+        border-radius: 8px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+        color:whitesmoke;
+    }
+    
+    .card:hover {
+        box-shadow: 50px 25px 15px rgba(0, 0, 0, 0.3);
+    }
+</style>
+</html>
